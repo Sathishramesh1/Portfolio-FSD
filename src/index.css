@@ -1,0 +1,120 @@
+/* Josefin Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* Exo font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap');
+
+/* Rubik font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+ body {
+    font-family: 'Rubik', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #edf2f8;
+    
+  }
+
+  h1 {
+    font-family: 'Josefin Sans', monospace 'sans-serif';
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 0px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-dark-accent
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-light-secondary;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-light-secondary/95
+}
+
+  .app__navbar {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    @apply self-center md:py-4 md:px-8 md:mt-0;
+    /* background: rgba(255, 255, 255, 0); */
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: none;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .app__navbar:hover li:hover > .app__navbar-dot {
+    @apply bg-dark-accent dark:bg-light-accent;
+  }
+
+  .app__navbar-dot {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+    border-radius: 50%;
+  }
+
+  .app__navbar__mobile-glass-morph {
+      /* From https://css.glass */
+      @apply bg-light-secondary;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: 3;
+  }
+
+  .app__page {
+    @apply w-full md:!h-screen min-h-screen;
+  } 
+
+  .primary {
+    @apply bg-light-primary dark:bg-dark-primary
+  }
+
+  .primary-2 {
+    @apply bg-light-primary-2 dark:bg-dark-primary-2 text-light-primary dark:text-dark-primary 
+  }
+
+.app__work-hover {
+  display: none;
+  opacity: 0;
+}
+ 
+.app__work:hover > .app__work-hover {
+  @apply lg:flex;
+  opacity: 100;
+  transition: ease-in;
+  z-index: 999px;
+}
+
+.app__work:hover > .app__work-img, .app__work:hover > .app__work-description{
+  @apply lg:blur-sm transition-all duration-300 blur-none
+}
+
+.text-color-pry {
+  @apply text-light-primary dark:text-dark-primary
+}
+
+
