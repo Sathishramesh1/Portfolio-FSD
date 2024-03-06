@@ -15,7 +15,7 @@ import {
  } from './index';
  
  
- import { DevJobs, SpaceTourism, Windbnb, DashboardAnalytics } from './index';
+ import {gmail, SpaceTourism, Windbnb, DashboardAnalytics } from './index';
  
 
  const paragraphs = {
@@ -53,31 +53,31 @@ import {
  const projects = [
    {
      name: 'Gmail Clone',
-     imageUrl: DevJobs,
-     liveLink: 'http://dev-jobs-seven-wine.vercel.app/',
-     githubLink: 'https://github.com/emmaGH1/DevJobs',
-     description: 'Developed DevJobs, a frontend web application for job listings in the tech industry.'
+     imageUrl: gmail,
+     liveLink: '',
+     githubLink: '',
+     description: 'Created a Gmail clone web application for email management and communication.'
    },
    {
      name: 'Lite Chat',
      imageUrl: DashboardAnalytics,
-     liveLink: 'https://geepayhq-analytics-dashboard.vercel.app/',
-     githubLink: 'https://github.com/emmaGH1/geepayhq-analytics-dashboard',
-     description: 'Participating in an online hackathon, where I was tasked with creating a visually appealing and responsive design for an analytics dashboard.'
+     liveLink: '',
+     githubLink: '',
+     description: 'Chat-Byte is real time chat application using socket.io'
    },
    {
      name: 'E-cart',
      imageUrl: Windbnb,
-     liveLink: 'https://wind-bnb-sepia.vercel.app/',
-     githubLink: 'https://github.com/emmaGH1/wind-bnb',
-     description: 'I built a responsive web application Wind-BnB, that enables users to search and filter through a database of houses for short stays.'
+     liveLink: '',
+     githubLink: '',
+     description: 'Minimalistic E-commerce Application'
    },
    {
      name: 'Space Tourism',
      imageUrl: SpaceTourism,
-     liveLink: 'https://space-tourism-site-psi.vercel.app/',
-     githubLink: 'https://github.com/emmaGH1/space_tourism_site',
-     description: 'Created a landing page for space tourism.'
+     liveLink: '',
+     githubLink: '',
+     description: 'Blog-Byte is A simple blog Application'
    }
  ];
  
