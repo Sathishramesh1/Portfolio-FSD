@@ -18,7 +18,7 @@ import ReactRouterIcon from './icons/react-router-icon.svg';
 import ChatGptIcon from './icons/chatgpt-icon.png';
 
 import Windbnb from './images/Windbnb.png';
-import DevJobs from './images/devjobs.png';
+import gmail from './images/gmail-clone.png';
 import SpaceTourism from './images/space-tourism.png';
 import DashboardAnalytics from './images/Analytics Dashboard.png';
 import FloatingCogs from './images/floating-cogs.svg';
@@ -41,7 +41,7 @@ export {
   ReactRouterIcon,
   ChatGptIcon,
   Windbnb,
-  DevJobs,
+  gmail,
   SpaceTourism,
   DashboardAnalytics,
   FloatingCogs
