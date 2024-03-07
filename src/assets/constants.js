@@ -66,29 +66,29 @@ import {
    {
      name: 'Gmail Clone',
      imageUrl: gmail,
-     liveLink: '',
-     githubLink: '',
+     liveLink: 'https://gmail-clone96.netlify.app/',
+     githubLink: 'https://github.com/Sathishramesh1/GmailClone-FrontEnd.git',
      description: 'Created a Gmail clone web application for email management and communication.'
    },
    {
      name: 'Chat-Byte',
      imageUrl: chat,
-     liveLink: '',
-     githubLink: '',
+     liveLink: 'https://chat-byte.netlify.app/',
+     githubLink: 'https://github.com/Sathishramesh1/chat-app-frontend.git',
      description: 'Chat-Byte is real time chat application using socket.io'
    },
    {
      name: 'E-cart',
      imageUrl: ecart,
-     liveLink: '',
-     githubLink: '',
+     liveLink: 'https://ec-cart.netlify.app/',
+     githubLink: 'https://github.com/Sathishramesh1/E-cart-frontend.git',
      description: 'Minimalistic E-commerce Application'
    },
    {
      name: 'Blog-Byte',
      imageUrl: blog,
-     liveLink: '',
-     githubLink: '',
+     liveLink: 'https://blog-byte.netlify.app/',
+     githubLink: 'https://github.com/Sathishramesh1/blog-frontend.git',
      description: 'Blog-Byte is A simple blog Application'
    }
  ];
