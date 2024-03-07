@@ -28,7 +28,7 @@ const Navbar = ({ targetRef, toggleShow, setToggleShow }) => {
   }, [visible, prevScrollPos]);
 
   return (
-    <div className={` ${visible ? 'md:flex' : 'md:flex'} flex app__navbar text-dark-primary/70 dark:text-light-primary md:bg-white/50 md:dark:bg-white/10 transition-colors`} >
+    <div className={` ${visible ? 'md:flex' : 'md:flex'} left-0 flex app__navbar text-dark-primary/70 dark:text-light-primary md:bg-white/50 md:dark:bg-white/10 transition-colors `} >
       <div className="flex items-center mt-2 ml-4 md:ml-0 md:mt-0 text-light-primary dark:text-dark-primary/70">
         <span className="font-bold text-xl">Sathish</span>
         <span className="hidden sm:flex font-bold text-xl">.</span>
@@ -40,7 +40,7 @@ const Navbar = ({ targetRef, toggleShow, setToggleShow }) => {
           <CgMenuRight className="w-5 h-5 "/>
         </div>
 
-        <div className={`${toggleShow ? 'flex' : 'hidden'} flex-col fixed app__navbar__mobile-glass-morph w-7/10 right-0 top-0 h-screen light:text-dark-primary/80`}>
+        <div className={`${toggleShow ? 'flex' : 'hidden'} flex-col fixed app__navbar__mobile-glass-morph w-7/10  left-0 right-0 top-0 h-screen light:text-dark-primary/80`}>
           <div className="flex justify-between items-center">
             <DarkMode className="mt-5 ml-3"/>
             <IoCloseSharp className="flex self-end mt-5 mr-5 w-5 h-5" onClick={handleToggle} />     

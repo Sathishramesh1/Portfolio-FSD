@@ -6,7 +6,7 @@ import { fadeIn } from '../utils';
 
 const Work = () => (
   <div id='work' className='primary-2 :h-full'>
-    <h1 className='mt-16 ml-7 text-green-500 '>  Projects</h1>
+    <h1 className='mt-16 ml-7 text-green-500 '> Works</h1>
 
     <div className='grid mx-auto w-9/10 lg:w-4/5 lg:grid-cols-2'>
       {projects.map((each, i) => {

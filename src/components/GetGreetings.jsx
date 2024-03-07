@@ -8,7 +8,7 @@ const GetGreetings = ({ className }) => {
 
   useEffect(() => {
     if (hour >= 5 && hour < 12) {
-      setGreeting('Top of the morning ☕');
+      setGreeting('Good morning 🌤');
     } else if (hour >= 12 && hour < 18) {
       setGreeting('Good afternoon 🌞');
     } else if (hour >= 18 && hour < 22) {

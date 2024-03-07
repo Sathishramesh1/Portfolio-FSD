@@ -1,17 +1,25 @@
 // Import icons from your './index' file
 import {
-   TSIcon,
+   
    JSIcon,
    ReactIcon,
-   NextJSIcon,
+  
    ReduxIcon,
-   TailwindIcon,
+  
    HTMLIcon,
    CSSIcon,
    ChatGptIcon,
    GitIcon,
    ReactRouterIcon,
-   NodeIcon
+   NodeIcon,
+   Express,
+   BootStrap,
+   mui,
+   mysql,
+   mongo,
+   chat,
+   ecart,
+   blog
  } from './index';
  
  
@@ -19,7 +27,7 @@ import {
  
 
  const paragraphs = {
-   intro: `I build clean, responsive, and scalable websites.`,
+   intro: `A Certified Full Stack Developer from GUVI,Incubated With IIT Madras.`,
    aboutMe:[ 
      `Hello! My name is Sathish. I hold a Bachelor's degree in Mechanical Engineering and I'm currently expanding my skill set by learning Full Stack Development from Guvi IIT Madras.`,
  
@@ -33,13 +41,17 @@ import {
  
  const techStacks = [
    { name: 'Node js', url: NodeIcon },
+   { name: 'Express js', url: Express },
    { name: 'JavaScript', url: JSIcon },
    { name: 'React', url: ReactIcon },
-   { name: 'NextJS', url: NextJSIcon },
+   
    { name: 'Redux Toolkit', url: ReduxIcon },
-   { name: 'Tailwind', url: TailwindIcon },
+   { name: 'BootStrap', url: BootStrap },
+   { name: 'Material UI', url:mui },
    { name: 'HTML', url: HTMLIcon },
-   { name: 'CSS', url: CSSIcon }
+   { name: 'CSS', url: CSSIcon },
+   { name: 'MySql', url: mysql },
+   { name: 'MongoDB', url: mongo }
  ];
  
 
@@ -59,22 +71,22 @@ import {
      description: 'Created a Gmail clone web application for email management and communication.'
    },
    {
-     name: 'Lite Chat',
-     imageUrl: DashboardAnalytics,
+     name: 'Chat-Byte',
+     imageUrl: chat,
      liveLink: '',
      githubLink: '',
      description: 'Chat-Byte is real time chat application using socket.io'
    },
    {
      name: 'E-cart',
-     imageUrl: Windbnb,
+     imageUrl: ecart,
      liveLink: '',
      githubLink: '',
      description: 'Minimalistic E-commerce Application'
    },
    {
-     name: 'Space Tourism',
-     imageUrl: SpaceTourism,
+     name: 'Blog-Byte',
+     imageUrl: blog,
      liveLink: '',
      githubLink: '',
      description: 'Blog-Byte is A simple blog Application'

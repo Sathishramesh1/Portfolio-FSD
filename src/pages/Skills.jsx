@@ -22,7 +22,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='md:hidden mb-10'>
+      {/* <div className='md:hidden mb-10'>
         <div className='text-3xl font-bold text-center font-heading text-green-500 mt-16'>Tools</div>
         <div className='grid grid-cols-3 gap-10 md:w-full dark:text-dark-primary/80 md:gap-20 mt-5 mr-1'>
           {toolStack.map(each => (
@@ -32,7 +32,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

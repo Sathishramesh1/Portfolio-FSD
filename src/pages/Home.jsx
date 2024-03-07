@@ -11,7 +11,7 @@ const Home = () => {
 
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = '';
+    downloadLink.href = 'https://drive.google.com/file/d/12iwphamVYuYtAb8BDmJqDIVt9ZqfXT5g/view?usp=drive_link';
     downloadLink.target = '_blank';
     downloadLink.click();
   };
@@ -33,9 +33,9 @@ const Home = () => {
           </div>
 
           <div className='mb-10 mt-7'>
-            <div className='flex flex-col justify-center mx-auto'>
-              <h1 className='flex justify-center p-0 my-0 font-bold text-green-500 font-heading'>FullStack Developer🧑‍💻</h1>
-              <div className="flex justify-center mt-2 mb-5 text-center dark:text-dark-primary/50">
+            <div className='flex flex-col justify-center mx-auto max-w-md'>
+              <h1 className='flex justify-center p-0 my-0 font-bold text-green-500 font-heading'>FullStack Developer💻</h1>
+              <div className="flex justify-center flex-wrap mt-2 mb-5 text-center dark:text-dark-primary/50">
                 {introText.map((p, i) => (
                   <motion.p
                     key={i}
